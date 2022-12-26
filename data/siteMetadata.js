@@ -63,20 +63,20 @@ const siteMetadata = {
       themeURL: '',
     },
   },
-  // search: {
+   search: {
   //   provider: 'kbar', // kbar or algolia
   //   kbarConfig: {
   //     searchDocumentsPath: 'search.json', // path to load documents to search
   //   },
-  //   provider: 'algolia',
-  //   algoliaConfig: {
+     provider: 'algolia',
+     algoliaConfig: {
   //     // The application ID provided by Algolia
-  //     appId: 'R2IYF7ETH7',
+       appId: 'JZXKM7K3TO',
   //     // Public API key: it is safe to commit it
-  //     apiKey: '599cec31baffa4868cae4e79f180729b',
-  //     indexName: 'docsearch',
-  //   },
-  // },
+       apiKey: '12a970b29b381cddc5d2cee1ef6336dc',
+       indexName: 'docsearch',
+     },
+   },
 }
 
 module.exports = siteMetadata
